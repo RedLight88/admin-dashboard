@@ -9,15 +9,14 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 .container {
     display: grid;
     grid-template-columns: repeat(15, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    height: 100vh;
+    height: 100%;
     
 }
 .sidebar {
@@ -31,13 +30,14 @@ body, html {
 #dash{
     height: 5rem;
     margin-right: 1rem;
-    margin-left: 1rem;
+    margin-left: 5rem;
 }
 .sidebar h1{
     text-align: start;
     display: flex;
     align-items: center;
-    font-size: 2.5em;
+    font-size: 2.5rem;
+    margin-top: 3rem;
 }
 
 .sidebar button.btn {
@@ -45,16 +45,22 @@ body, html {
     width: 5rem;
     
 }
-
+#top{
+    margin-top: 10rem;
+}
+.empty {
+    margin-top: 10rem;
+}
 .options {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 .options img{
     height: 4rem;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .options .btn {
     height: 2rem;
@@ -68,10 +74,10 @@ body, html {
 .options .btn:hover{
     text-decoration: underline;
 }
+
   
   
-  
-.item-2 {
+.header {
     grid-row: 1;
     grid-column: 4/-1;
     background-color: rgb(46, 19, 19);
