@@ -75,13 +75,62 @@ body, html {
     text-decoration: underline;
 }
 
-  
-  
 .header {
     grid-row: 1;
     grid-column: 4/-1;
-    background-color: rgb(46, 19, 19);
+    background-color: rgb(78, 118, 204);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+    
 }
+
+.search-box{
+    display: flex;
+    align-items: center;
+    height: 6rem;
+}
+
+.search-box img {
+    height: 3rem;
+}
+.profile img {
+    height: 3rem;
+}
+.search input {
+    height: 1rem;
+    width: 30rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.profile-info img{
+    height: 5rem;
+   
+}
+
+.profile-info {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+}
+.profile-info h2{
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+
+
 .item-3 {
     grid-row: 2/-1;
     grid-column: 4/12;
