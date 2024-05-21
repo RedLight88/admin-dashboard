@@ -129,6 +129,22 @@ body, html {
     margin-top: 0.5rem;
 }
 
+.head-btns {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.head-btns button {
+    font-size: 1.5rem;
+    background-color: rgb(58, 150, 236);
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 
 .item-3 {
